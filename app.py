@@ -414,8 +414,6 @@ class ImageProcessor:
             self.panelB.configure(image=imgtk)
         self.panelB.image = imgtk
 
-
-
 if __name__ == "__main__":
     root = Tk()
     app = ImageProcessor(root)
